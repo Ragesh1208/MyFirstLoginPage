@@ -1,1 +1,177 @@
+body{
+    background-image: url('./logo/lake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.continer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    background-color:rgb(255, 255, 255,-1);
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 50px white;
+    
+}
+.cont{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.login h1{
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-shadow: 2px 2px 10px rgb(255, 0, 0,);
+    text-align: center;
+    font-size: 40px;
+}
+.username div user_name{
+    text-align: start;
+    padding-bottom:20px;
+    
+}
+.password div pass{
+    text-align: start;
+    padding-bottom:20px;
+    margin-top: 20px;
 
+}
+.password{
+    padding-top: 20px;
+}
+input[type=text] , select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border:none;
+    border-radius: 1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid red;
+    background-color: rgb(255, 255, 255,0);
+    box-sizing: unset;
+
+
+}
+input[type=text] :hover {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border:none;
+    border-bottom: 1px solid green;
+    border-radius: 1px;
+    box-sizing: border-box;
+    transition: 1s;
+    box-sizing: unset;
+
+
+}
+input[type=password] , select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid red;
+    border-radius: 1px;
+    box-sizing: unset;
+
+}
+input[type=password]:hover{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border:none;
+    border-bottom: 1px solid green;
+    border-radius: 1px;
+    box-sizing: border-box;
+    transition: 1s;
+    box-sizing: unset;
+
+}    
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(157, 228, 157);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover{
+    width: 100%;
+    background-color: green;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid green;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+
+}
+#got{
+    align-items: end;
+}
+a{
+    color: blue;
+    text-align:right;
+    text-decoration: none;
+   
+}
+a:hover
+{
+    color: red;
+    text-align:right;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+
+}
+.or p{
+    text-align: center;
+    font-size: 20px;
+}
+.imga{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+
+}
+.i a img{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.i a .linkdin{
+    padding-left: 50px;
+    
+    
+}
+.i a .chrome{
+    padding-left: 40px;
+}
+.last p{
+    align-items: center;
+    text-align: center;
+}
